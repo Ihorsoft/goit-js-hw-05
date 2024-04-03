@@ -3,6 +3,7 @@ const getTotalBalanceByGender = (users, gender) => users
     .reduce((itemBalance, element) => itemBalance + element.balance, 0);
     
 
+    
     const clients = [
 	{
     name: "Moore Hensley",
